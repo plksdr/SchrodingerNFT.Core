@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schrodinger.Core.ImageGeneration", "src\Schrodinger.Core.ImageGeneration\Schrodinger.Core.ImageGeneration.csproj", "{08B3753C-758E-4287-ADD4-D3945E338A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D431099-1E02-4526-88E1-D11E396C0732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6057D052-F1DE-41DF-B479-FE928DF1B231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schrodinger.Core.ImageGeneration.Tests", "test\Schrodinger.Core.ImageGeneration.Tests\Schrodinger.Core.ImageGeneration.Tests.csproj", "{EEBEBFEF-437B-470C-9733-E77357DFA9D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B3753C-758E-4287-ADD4-D3945E338A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B3753C-758E-4287-ADD4-D3945E338A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B3753C-758E-4287-ADD4-D3945E338A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B3753C-758E-4287-ADD4-D3945E338A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBEBFEF-437B-470C-9733-E77357DFA9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBEBFEF-437B-470C-9733-E77357DFA9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBEBFEF-437B-470C-9733-E77357DFA9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBEBFEF-437B-470C-9733-E77357DFA9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08B3753C-758E-4287-ADD4-D3945E338A6D} = {8D431099-1E02-4526-88E1-D11E396C0732}
+		{EEBEBFEF-437B-470C-9733-E77357DFA9D9} = {6057D052-F1DE-41DF-B479-FE928DF1B231}
+	EndGlobalSection
+EndGlobal
